@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/shape7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:shadowColor="#C8C8C8"
+            android:hint="Encrypted key"
+            android:shadowRadius="5"
+            android:textCursorDrawable="@null"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="45dp"
+            android:layout_marginTop="215dp"
+            android:textColorHint="#312C9D65"
+            android:background="@drawable/shape5"
+
+
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:drawablePadding="3dp"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/passwrd"
+            android:text=""
+            android:textAlignment="center"
+            android:textCursorDrawable="@null"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/shape4"
+            android:hint="message"
+            android:textColor="#006A36"
+            android:layout_marginHorizontal="45dp"
+            android:paddingStart="7dp"
+            android:layout_marginTop="145dp"
+            android:textColorHint="#312C9D65"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/enty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="65dp"
+            android:layout_marginTop="45dp"
+
+            android:background="@drawable/shape3"
+            android:padding="1dp"
+            android:text="Encrpyt"
+            android:shadowColor="#A6A6A6"
+            android:shadowRadius="5"
+            android:textColor="#2E2E2E"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
